@@ -1,0 +1,62 @@
+{
+  "errors": [],
+  "records": 32,
+  "verified_signatures": 18,
+  "clone_chains": [
+    {
+      "label": "clone-native-DEST_A",
+      "hosts": [
+        "DEST_A"
+      ],
+      "flags": [
+        0
+      ]
+    },
+    {
+      "label": "clone-repaired-DEST_A",
+      "hosts": [
+        "DEST_A"
+      ],
+      "flags": [
+        0
+      ]
+    },
+    {
+      "label": "clone-dedicated-DEST_A",
+      "hosts": [
+        "DEST_A"
+      ],
+      "flags": [
+        0
+      ]
+    }
+  ],
+  "outcomes": {
+    "clone-native-DEST_A": "allow",
+    "clone-native-DEST_B": "deny",
+    "clone-stock-DEST_A": "deny",
+    "clone-stock-DEST_B": "deny",
+    "clone-repaired-DEST_A": "allow",
+    "clone-repaired-DEST_B": "deny",
+    "clone-dedicated-DEST_A": "allow",
+    "clone-dedicated-DEST_B": "deny"
+  },
+  "mutations": [
+    {
+      "name": "wrong-clone-content",
+      "detected": true,
+      "errors": [
+        "clone-repaired-DEST_A clone content"
+      ]
+    },
+    {
+      "name": "false-clone-denial",
+      "detected": true,
+      "errors": [
+        "clone-repaired-DEST_A expected outcome",
+        "clone-repaired-DEST_A explicit SSH refusal"
+      ]
+    }
+  ],
+  "passed": true
+}

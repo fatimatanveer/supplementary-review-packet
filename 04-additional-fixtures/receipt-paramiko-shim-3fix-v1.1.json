@@ -1,0 +1,563 @@
+{
+  "passed": true,
+  "integrity_errors": [],
+  "verified_signatures": 126,
+  "planned_fixtures": 3,
+  "qualified_fixtures": 3,
+  "both_flips_on_every_qualified_fixture": true,
+  "replication_unit": "fixture",
+  "flips": {
+    "1": {
+      "origin": {
+        "unmodified": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "shim": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        }
+      },
+      "hop": {
+        "unmodified": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "shim": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        }
+      }
+    },
+    "2": {
+      "hop": {
+        "unmodified": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "shim": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        }
+      },
+      "origin": {
+        "unmodified": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "shim": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        }
+      }
+    },
+    "3": {
+      "origin": {
+        "unmodified": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "shim": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        }
+      },
+      "hop": {
+        "unmodified": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        },
+        "shim": {
+          "predicted": "allow",
+          "transcript": "allow",
+          "mechanism": "verified-signature",
+          "match": true
+        },
+        "reverted": {
+          "predicted": "deny",
+          "transcript": "deny",
+          "mechanism": "identity-enumeration-refusal",
+          "match": true
+        }
+      }
+    }
+  },
+  "endpoints": {
+    "1": {
+      "unconstrained:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:a:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      }
+    },
+    "2": {
+      "unconstrained:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:a:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      }
+    },
+    "3": {
+      "unconstrained:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:a:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "unconstrained:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "origin:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "origin:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:unmodified:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:unmodified:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:shim:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:shim:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:a:DEST_A": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:a:DEST_B": {
+        "transcript": "deny",
+        "mechanism": "identity-enumeration-refusal"
+      },
+      "hop:reverted:b:DEST_A": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      },
+      "hop:reverted:b:DEST_B": {
+        "transcript": "allow",
+        "mechanism": "verified-signature"
+      }
+    }
+  },
+  "exclusions": [],
+  "checks": [
+    "evidence manifest hashes",
+    "snapshot hashes and Paramiko, image, Python, platform, and binary pins against the one-fixture freeze",
+    "vendor tree and wheel hashes",
+    "absence of OpenSSH private-key armor",
+    "original one-fixture receipt bytes unchanged",
+    "distinct A, B, transport, and host keys within and across fixtures",
+    "destination authorization lists A and B, and HOP authorizes only the transport key",
+    "native transcript classes against the frozen gate table",
+    "unconstrained native forward trace contains a verified HOP session-bind",
+    "each transport signature verifies over that transport's session id and sits in the pre-NEWKEYS key-exchange reply",
+    "shim connections start with one accepted flag-1 HOP bind of that transport triple before client requests",
+    "unmodified and reverted slices contain no HOP host key",
+    "HOP-policy shim success carries that HOP bind and a later destination bind on the same connection",
+    "direct-policy shim refusal is an identities or signing refusal after an accepted bind, not a shim rejection or a disconnect",
+    "every agent signature reply verifies against its request bytes and enclosed public key",
+    "A to DEST_B stays denied and B stays allowed in every recorded phase",
+    "source-agent B brackets allow at both destinations",
+    "A was removed and added again before each native matrix and each phase",
+    "constrained policy order alternates across the three fixtures",
+    "transcript allow or deny is not taken from runner outcome fields",
+    "a destination denial or signature is classified on the connection that binds that destination host key"
+  ],
+  "tool_versions": {
+    "ssh": {
+      "argv": [
+        "/usr/bin/ssh",
+        "-V"
+      ],
+      "rc": 0,
+      "text": "OpenSSH_10.0p2 Debian-7+deb13u4, OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "sshd": {
+      "argv": [
+        "/usr/sbin/sshd",
+        "-V"
+      ],
+      "rc": 0,
+      "text": "OpenSSH_10.0p2 Debian-7+deb13u4, OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "ssh-add": {
+      "argv": [
+        "/usr/bin/ssh-add",
+        "-V"
+      ],
+      "rc": 2,
+      "text": "Could not open a connection to your authentication agent."
+    },
+    "ssh-agent": {
+      "argv": [
+        "ssh-agent",
+        "-V"
+      ],
+      "rc": 1,
+      "text": "unknown option -- V\nusage: ssh-agent [-c | -s] [-Dd] [-a bind_address] [-E fingerprint_hash]\n                 [-O option] [-P allowed_providers] [-t life]\n       ssh-agent [-a bind_address] [-E fingerprint_hash] [-O option]\n                 [-P allowed_providers] [-t life] command [arg ...]\n       ssh-agent [-c | -s] -k"
+    },
+    "image-ssh-agent": {
+      "argv": [
+        "/usr/bin/ssh-agent",
+        "-V"
+      ],
+      "rc": 1,
+      "text": "unknown option -- V\nusage: ssh-agent [-c | -s] [-Dd] [-a bind_address] [-E fingerprint_hash]\n                 [-O option] [-P allowed_providers] [-t life]\n       ssh-agent [-a bind_address] [-E fingerprint_hash] [-O option]\n                 [-P allowed_providers] [-t life] command [arg ...]\n       ssh-agent [-c | -s] -k"
+    },
+    "git": {
+      "argv": [
+        "git",
+        "-C",
+        "/study",
+        "rev-parse",
+        "HEAD"
+      ],
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'git'"
+    }
+  },
+  "harness_version": "paramiko-shim-3fix-v1",
+  "checker_version": "paramiko-shim-3fix-checker-v1.1",
+  "supersedes": "receipt-paramiko-shim-3fix-v1.json",
+  "replay": "saved-record audit of the v1 live collection; not a second live run and not independent reproduction",
+  "scope": "three additional author-operated fixtures; harness shim, not Paramiko behavior; original one-fixture evidence left in place",
+  "interpretation": "On these three author-operated fixtures, supplying the authenticated transport binding produced both predicted A-to-DEST_A changes, and removing it restored the unmodified results. The shim is harness code. This is the same research process as the retained one-fixture run, not independent reproduction, and not a reliability or deployment claim."
+}

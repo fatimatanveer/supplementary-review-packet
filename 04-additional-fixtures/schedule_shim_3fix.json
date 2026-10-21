@@ -1,0 +1,58 @@
+{
+  "version": "paramiko-shim-3fix-schedule-2026-10-05",
+  "harness_version": "paramiko-shim-3fix-v1",
+  "dated": "2026-10-05",
+  "written_before_target_measurement": true,
+  "distinct_from": "evidence/paramiko-shim-v1",
+  "planned_fixtures": 3,
+  "replication_unit": "fixture",
+  "nested_within_fixture": ["policy session", "phase", "request", "signature check"],
+  "qualification_first": "unconstrained",
+  "fixture_policy_orders": {
+    "1": ["unconstrained", "origin", "hop"],
+    "2": ["unconstrained", "hop", "origin"],
+    "3": ["unconstrained", "origin", "hop"]
+  },
+  "phases": ["unmodified", "shim", "reverted"],
+  "policy_reset": {
+    "before_native_matrix": true,
+    "before_each_phase": true,
+    "method": "ssh-add -d of the A public key, then ssh-add of A with that session constraint"
+  },
+  "native_gates_source": "schedule_paramiko.json native_gates",
+  "native_gates": {
+    "unconstrained": {
+      "direct": {"a": {"DEST_A": "allow", "DEST_B": "allow"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}},
+      "forward": {"a": {"DEST_A": "allow", "DEST_B": "allow"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}}
+    },
+    "origin": {
+      "direct": {"a": {"DEST_A": "allow", "DEST_B": "deny"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}},
+      "forward": {"a": {"DEST_A": "deny", "DEST_B": "deny"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}}
+    },
+    "hop": {
+      "direct": {"a": {"DEST_A": "deny", "DEST_B": "deny"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}},
+      "forward": {"a": {"DEST_A": "allow", "DEST_B": "deny"}, "b": {"DEST_A": "allow", "DEST_B": "allow"}}
+    }
+  },
+  "phase_gates": {
+    "b": "allow",
+    "a_DEST_B": "deny",
+    "unconstrained_all": "allow"
+  },
+  "causal_predictions": {
+    "origin": {"unmodified": "allow", "shim": "deny", "reverted": "allow"},
+    "hop": {"unmodified": "deny", "shim": "allow", "reverted": "deny"}
+  },
+  "denial_confirms_prediction_only_if": ["identity-enumeration-refusal", "agent-signing-refusal"],
+  "not_a_predicted_denial": ["server-rejection", "transport-failure", "parser-disconnect", "binding-rejection", "unexplained-denial", "inconclusive"],
+  "binding": {
+    "extension": "session-bind@openssh.com",
+    "forwarding_flag": 1,
+    "per_connection": true,
+    "before_client_bytes": true,
+    "source": "live Transport._verify_key host key, session id, and server signature",
+    "implementation": "run_shim.ForwardShim",
+    "fixture_host_private_key": false
+  },
+  "original_receipt_sha256": "5ded615d5873ba3777a9cc35b6f2cfdb1635c5007c50a1416f5ba4900036cd1e"
+}

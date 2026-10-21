@@ -1,0 +1,433 @@
+{
+  "passed": true,
+  "errors": [],
+  "fixtures": [
+    {
+      "errors": [],
+      "records": 24,
+      "verified_signatures": 14,
+      "chains": [
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    },
+    {
+      "errors": [],
+      "records": 24,
+      "verified_signatures": 14,
+      "chains": [
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    },
+    {
+      "errors": [],
+      "records": 24,
+      "verified_signatures": 14,
+      "chains": [
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    }
+  ],
+  "scope": "author-operated; matched routes in one reused workspace, fresh source fixtures"
+}

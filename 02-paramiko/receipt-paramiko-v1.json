@@ -1,0 +1,2467 @@
+{
+  "passed": true,
+  "errors": [],
+  "verified_signatures": 66,
+  "qualified_fixtures": 3,
+  "predictions": [
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-unconstrained-10",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-unconstrained-10",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T3-unconstrained",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "H2-binding-unconstrained",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "dest-binding-unconstrained",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "paramiko-origin-direct-a-DEST_A",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "paramiko-origin-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-origin-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-origin-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T3-origin",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "H2-binding-origin",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "dest-binding-origin",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "paramiko-hop-direct-a-DEST_A",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "paramiko-hop-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-2",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-2",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-8",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-8",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T1-hop-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "step-hop-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "T3-hop",
+      "predicted": "step8-equals-step2",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "H2-binding-hop",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 1,
+      "item": "dest-binding-hop",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-unconstrained-10",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-unconstrained-10",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T3-unconstrained",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "H2-binding-unconstrained",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "dest-binding-unconstrained",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "paramiko-origin-direct-a-DEST_A",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "paramiko-origin-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-origin-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-origin-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T3-origin",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "H2-binding-origin",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "dest-binding-origin",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "paramiko-hop-direct-a-DEST_A",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "paramiko-hop-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-2",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-2",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-8",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-8",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T1-hop-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "step-hop-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "T3-hop",
+      "predicted": "step8-equals-step2",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "H2-binding-hop",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 2,
+      "item": "dest-binding-hop",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-unconstrained-10",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-unconstrained-10",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T3-unconstrained",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "H2-binding-unconstrained",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "dest-binding-unconstrained",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "paramiko-origin-direct-a-DEST_A",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "paramiko-origin-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-2",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-2",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-8",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-8",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-origin-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-origin-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T3-origin",
+      "predicted": "step8-equals-step2",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "H2-binding-origin",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "dest-binding-origin",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "paramiko-hop-direct-a-DEST_A",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "paramiko-hop-direct-a-DEST_B",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-1",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-1",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-2",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-2",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-3",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-3",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-5",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-5",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-6",
+      "predicted": "match",
+      "observed": "allow/allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-6",
+      "predicted": "allow",
+      "observed": "allow",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-8",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-8",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-9",
+      "predicted": "match",
+      "observed": "success/success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-9",
+      "predicted": "success",
+      "observed": "success",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T1-hop-10",
+      "predicted": "match",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "step-hop-10",
+      "predicted": "deny",
+      "observed": "deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "T3-hop",
+      "predicted": "step8-equals-step2",
+      "observed": "deny/deny",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "H2-binding-hop",
+      "predicted": "absent",
+      "observed": "absent",
+      "result": "confirmed"
+    },
+    {
+      "fixture": 3,
+      "item": "dest-binding-hop",
+      "predicted": "present",
+      "observed": "present",
+      "result": "confirmed"
+    }
+  ],
+  "bindings": [
+    {
+      "fixture": 1,
+      "policy": "unconstrained",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 1,
+      "policy": "origin",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 1,
+      "policy": "hop",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 2,
+      "policy": "unconstrained",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 2,
+      "policy": "origin",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 2,
+      "policy": "hop",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 3,
+      "policy": "unconstrained",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 3,
+      "policy": "origin",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    },
+    {
+      "fixture": 3,
+      "policy": "hop",
+      "paramiko": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_forward": [
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "HOP",
+          "flag": 1,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ],
+      "native_direct": [
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_A",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        },
+        {
+          "role": "DEST_B",
+          "flag": 0,
+          "state": "accepted",
+          "extension": "session-bind@openssh.com"
+        }
+      ]
+    }
+  ],
+  "prediction_tally": {
+    "confirmed": 183,
+    "refuted": 0,
+    "inconclusive": 0
+  },
+  "scope": "author-operated Paramiko 4.0.0 forwarding measurement; not independent reproduction"
+}

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "errors": [],
+  "verified_signatures": 23,
+  "qualified_fixtures": 1,
+  "causal_test_performed": true,
+  "both_flips": true,
+  "flips": {
+    "origin": {
+      "unmodified": {
+        "predicted": "allow",
+        "observed": "allow",
+        "match": true
+      },
+      "shim": {
+        "predicted": "deny",
+        "observed": "deny",
+        "match": true
+      },
+      "reverted": {
+        "predicted": "allow",
+        "observed": "allow",
+        "match": true
+      }
+    },
+    "hop": {
+      "unmodified": {
+        "predicted": "deny",
+        "observed": "deny",
+        "match": true
+      },
+      "shim": {
+        "predicted": "allow",
+        "observed": "allow",
+        "match": true
+      },
+      "reverted": {
+        "predicted": "deny",
+        "observed": "deny",
+        "match": true
+      }
+    }
+  },
+  "bindings": [
+    {
+      "policy": "unconstrained",
+      "phase": "unmodified",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "origin",
+      "phase": "unmodified",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "origin",
+      "phase": "shim",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "origin",
+      "phase": "reverted",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "hop",
+      "phase": "unmodified",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "hop",
+      "phase": "shim",
+      "client_bearing": 4,
+      "connections": 4
+    },
+    {
+      "policy": "hop",
+      "phase": "reverted",
+      "client_bearing": 4,
+      "connections": 4
+    }
+  ],
+  "endpoints": {
+    "unconstrained:unmodified:a:DEST_A": "allow",
+    "unconstrained:unmodified:a:DEST_B": "allow",
+    "unconstrained:unmodified:b:DEST_A": "allow",
+    "unconstrained:unmodified:b:DEST_B": "allow",
+    "origin:unmodified:a:DEST_A": "allow",
+    "origin:unmodified:a:DEST_B": "deny",
+    "origin:unmodified:b:DEST_A": "allow",
+    "origin:unmodified:b:DEST_B": "allow",
+    "origin:shim:a:DEST_A": "deny",
+    "origin:shim:a:DEST_B": "deny",
+    "origin:shim:b:DEST_A": "allow",
+    "origin:shim:b:DEST_B": "allow",
+    "origin:reverted:a:DEST_A": "allow",
+    "origin:reverted:a:DEST_B": "deny",
+    "origin:reverted:b:DEST_A": "allow",
+    "origin:reverted:b:DEST_B": "allow",
+    "hop:unmodified:a:DEST_A": "deny",
+    "hop:unmodified:a:DEST_B": "deny",
+    "hop:unmodified:b:DEST_A": "allow",
+    "hop:unmodified:b:DEST_B": "allow",
+    "hop:shim:a:DEST_A": "allow",
+    "hop:shim:a:DEST_B": "deny",
+    "hop:shim:b:DEST_A": "allow",
+    "hop:shim:b:DEST_B": "allow",
+    "hop:reverted:a:DEST_A": "deny",
+    "hop:reverted:a:DEST_B": "deny",
+    "hop:reverted:b:DEST_A": "allow",
+    "hop:reverted:b:DEST_B": "allow"
+  },
+  "interpretation": "A controlled intervention restores the predicted forwarding-path behavior in a second implementation. This strengthens the causal argument modestly. It is not a new vulnerability.",
+  "scope": "one author-operated fixture; harness shim, not Paramiko behavior; not a vulnerability claim"
+}

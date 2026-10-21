@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "errors": [],
+  "fixtures": [
+    {
+      "fixture": "trial-1",
+      "errors": [],
+      "primary_cells": 72,
+      "state_records": 42,
+      "verified_signatures": 23,
+      "decoded_chains": [
+        {
+          "arm": "native",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "native",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        }
+      ],
+      "coverage_gaps": [],
+      "additional_scope": "binding replies; state partial order; available connection IDs; temporal controls; client-side destination/key attribution",
+      "attribution_limit": "Recorded client commands/logs, not independent server attribution or proprietary route attestation.",
+      "extended_records": 201,
+      "extended_case_groups": 93,
+      "extended_verified_signatures": 62
+    },
+    {
+      "fixture": "trial-2",
+      "errors": [],
+      "primary_cells": 72,
+      "state_records": 42,
+      "verified_signatures": 23,
+      "decoded_chains": [
+        {
+          "arm": "native",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "native",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        }
+      ],
+      "coverage_gaps": [],
+      "additional_scope": "binding replies; state partial order; available connection IDs; temporal controls; client-side destination/key attribution",
+      "attribution_limit": "Recorded client commands/logs, not independent server attribution or proprietary route attestation.",
+      "extended_records": 201,
+      "extended_case_groups": 93,
+      "extended_verified_signatures": 62
+    },
+    {
+      "fixture": "trial-3",
+      "errors": [],
+      "primary_cells": 72,
+      "state_records": 42,
+      "verified_signatures": 23,
+      "decoded_chains": [
+        {
+          "arm": "native",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "native",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "direct",
+          "hosts": [
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            0
+          ]
+        },
+        {
+          "arm": "repaired",
+          "route": "forwarded",
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "forwarding_flags": [
+            1,
+            0
+          ]
+        }
+      ],
+      "coverage_gaps": [],
+      "additional_scope": "binding replies; state partial order; available connection IDs; temporal controls; client-side destination/key attribution",
+      "attribution_limit": "Recorded client commands/logs, not independent server attribution or proprietary route attestation.",
+      "extended_records": 201,
+      "extended_case_groups": 93,
+      "extended_verified_signatures": 62
+    }
+  ],
+  "scope": "same-operator finite-corpus replay; no external reproduction"
+}

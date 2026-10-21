@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "fixtures": [
+    {
+      "fixture": "trial-1",
+      "factorial_cells": 216,
+      "auth_direct_records": 541,
+      "state_records": 383,
+      "verified_signatures": 147,
+      "status": {
+        "fixture": 1,
+        "qualified": true,
+        "complete": true,
+        "error": null,
+        "auth_and_direct_observations": 541
+      }
+    },
+    {
+      "fixture": "trial-2",
+      "factorial_cells": 216,
+      "auth_direct_records": 541,
+      "state_records": 383,
+      "verified_signatures": 147,
+      "status": {
+        "fixture": 2,
+        "qualified": true,
+        "complete": true,
+        "error": null,
+        "auth_and_direct_observations": 541
+      }
+    },
+    {
+      "fixture": "trial-3",
+      "factorial_cells": 216,
+      "auth_direct_records": 541,
+      "state_records": 383,
+      "verified_signatures": 147,
+      "status": {
+        "fixture": 3,
+        "qualified": true,
+        "complete": true,
+        "error": null,
+        "auth_and_direct_observations": 541
+      }
+    }
+  ],
+  "scope": "offline consistency/signature/schedule/trace verification, not independent scientific validation"
+}

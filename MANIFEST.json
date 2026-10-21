@@ -1,0 +1,271 @@
+{
+  "purpose": "Compact reading packet; not a standalone raw-evidence or replay bundle.",
+  "date": "2026-10-21",
+  "source_records_modified": true,
+  "raw_records_included": false,
+  "replay_programs_included": false,
+  "full_archives": [
+    {
+      "file": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "bytes": 63369957,
+      "sha256": "3f2a97f94cdf07fb3dfa7c5d170bfbcfb1e677e7e8472c5eee9505c20296d54a",
+      "included_in_packet": false,
+      "access": "Retained in the complete local supplementary-materials package."
+    },
+    {
+      "file": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "bytes": 13112759,
+      "sha256": "9fe2ebfb7b48e9b611075061b2c0496697de5a80eea9fb8ac04642b561b08cb1",
+      "included_in_packet": false,
+      "access": "Retained in the complete local supplementary-materials package."
+    },
+    {
+      "file": "paramiko-shim-reviewer-bundle-20261005.tar.gz",
+      "bytes": 179526,
+      "sha256": "1aac7cecdb19b53cc432d278919bee036d954696e0da1bec83ba682b683a0d40",
+      "included_in_packet": false,
+      "access": "Retained in the complete local supplementary-materials package"
+    },
+    {
+      "file": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "bytes": 411845,
+      "sha256": "bfc68c06e17fc02e35dbc17c4e05489adc88b94e0774846189efc9816758b11a",
+      "included_in_packet": false,
+      "access": "Retained in the complete local supplementary-materials package"
+    }
+  ],
+  "selected_records": {
+    "01-main/03-product-and-git/PRODUCT-PROTOCOL.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/final-validation-2026-10-04/PRODUCT-PROTOCOL.md",
+      "bytes": 4323,
+      "sha256": "2aa208aed2d2e97e4772cc2753b7999df98be4eb17130410d3034f828eb7515e",
+      "source_sha256": "27077f107636379548a170130b914d69cc04cfb8f615b80552a76cbb786483e6",
+      "source_bytes": 4468
+    },
+    "01-main/03-product-and-git/RESULTS.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/final-validation-2026-10-04/RESULTS.md",
+      "bytes": 8384,
+      "sha256": "d371861e2466f48f863b276050e213218bc987072daf69188fbdd5f9ef3ca895",
+      "source_sha256": "59021b3b75abd639017cecd66eb1da618146fd02c4b1cce4f18d3824c8222ac7",
+      "source_bytes": 8670
+    },
+    "01-main/03-product-and-git/receipts/git-v1-audit-v1.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/final-validation-2026-10-04/receipts/git-v1-audit-v1.json",
+      "bytes": 1179,
+      "sha256": "0b58b67d918cf367f2c65479d57d2f7ba06720a55ad219e9f7c2597a309e11e8"
+    },
+    "01-main/03-product-and-git/receipts/product-v6-audit-v1.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/final-validation-2026-10-04/receipts/product-v6-audit-v1.json",
+      "bytes": 21613,
+      "sha256": "91ea0cb4a6defa23090a707efd781034e9bcab4fe54d160ae27f6ddcbe1c1204",
+      "source_sha256": "3d99867aecc94649f987af9504f3ed61a44263dec0f325cd62a86786d3499577",
+      "source_bytes": 21653
+    },
+    "01-main/03-product-and-git/receipts/semantic-v4/summary.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/final-validation-2026-10-04/receipts/semantic-v4/summary.json",
+      "bytes": 406,
+      "sha256": "c4132f5fbe5488c446ddbfe50a448a5dd2f25bd90021dc6e0ddca762e8b62957"
+    },
+    "01-main/04-state-and-devpod/AMENDMENT-audit.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/AMENDMENT-audit.md",
+      "bytes": 973,
+      "sha256": "887590c33d9f77d134762803ecd24c6e14096e52666ac9b13cbb474d2c083eb1"
+    },
+    "01-main/04-state-and-devpod/AMENDMENT-devpod.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/AMENDMENT-devpod.md",
+      "bytes": 2098,
+      "sha256": "73c79f95da4c1e4b127903a3cf37318118547c8d6560ef899b9ba2b10b6fc199",
+      "source_sha256": "c66236f95e7758cd5ba8ae3a19b01aab534b9a35ea3eff0e595f132906d4d100",
+      "source_bytes": 2251
+    },
+    "01-main/04-state-and-devpod/COVERAGE.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/COVERAGE.md",
+      "bytes": 2850,
+      "sha256": "bbec60aa873bfc5888f515b389269d09c9caf3feb5d89a0ea686b3e53289b69a",
+      "source_sha256": "2d096c83a06f0ce6af7bec9e96485f78d5db3385502a74f257a0067eed523f0e",
+      "source_bytes": 2982
+    },
+    "01-main/04-state-and-devpod/DEVPOD-PROTOCOL.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/DEVPOD-PROTOCOL.md",
+      "bytes": 2342,
+      "sha256": "24c60de7a458a1f52b8a6227f156115fdd8a0dbdd12a95a86cb717558b1cae86",
+      "source_sha256": "351e2a651ea0dc184cddaa54c0a2531239341e1189833f230fe7b8810a325c9a",
+      "source_bytes": 2355
+    },
+    "01-main/04-state-and-devpod/PROTOCOL.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/PROTOCOL.md",
+      "bytes": 3217,
+      "sha256": "d91fc1ba782e26bc738d74490779e43720685f28468fd5573f3d60e34592c2d3",
+      "source_sha256": "fab119dcf1a150e454aab7ae4a2b6a48b766f578bb7261ef0e407cf42b64efe1",
+      "source_bytes": 3220
+    },
+    "01-main/04-state-and-devpod/RESULTS.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/RESULTS.md",
+      "bytes": 4550,
+      "sha256": "07c4872b7a7eda5c0bf200a6d6ee56e17ed248171d8e9e1b144b65b40cb1ad15",
+      "source_sha256": "3a7fe843a4ac8b98e48529ebce59ee87e1d40246c1d232fe87f97bd1b373800b",
+      "source_bytes": 4981
+    },
+    "01-main/04-state-and-devpod/receipts/devpod-final.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/receipts/devpod-final.json",
+      "bytes": 9336,
+      "sha256": "6899a67da42553960b29467f42b830cdf6c25bc0d1bbfdfa575bce9682d297c7",
+      "source_sha256": "0c236b9cb0a88af3604a8989bfe42799ff88152e24031060cb93c456b25a954c",
+      "source_bytes": 9348
+    },
+    "01-main/04-state-and-devpod/receipts/state-v1-amended.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/receipts/state-v1-amended.json",
+      "bytes": 4437,
+      "sha256": "2d75b070b4c22c1903c317f1a59af3134014fb32da5eabcb9e4cb6ba853994ff"
+    },
+    "01-main/04-state-and-devpod/receipts/state-v1.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/publication-revision-2026-10-05/receipts/state-v1.json",
+      "bytes": 5688,
+      "sha256": "881a9376e1ec900528c71d5b6db0ba696c75249cb1014e51c9f8413996f917b4"
+    },
+    "01-main/02-current-filter/PROTOCOL.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/reviewer-revision-2026-10-04/PROTOCOL.md",
+      "bytes": 3752,
+      "sha256": "2b1d75a0d9c6fbc16363729f3b657554b65ace8653816c39def067ddd7030956",
+      "source_sha256": "e302f7a8bd7f55867a52acb18b73495562a8e70fdc6d4a2784b6f9f3442e68b6",
+      "source_bytes": 4897
+    },
+    "01-main/02-current-filter/RESULTS.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/reviewer-revision-2026-10-04/RESULTS.md",
+      "bytes": 5285,
+      "sha256": "737f6c6ef89ba6473589ca7b9dc32dc14c860a4da81e6f4fbf6203dcb54eb9c2",
+      "source_sha256": "ac6982a0c24c54241bcc522973fdac35dad0f09b35b86f8e01342cb31f34d37a",
+      "source_bytes": 5928
+    },
+    "01-main/02-current-filter/evidence/verification/final.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/reviewer-revision-2026-10-04/evidence/verification/final.json",
+      "bytes": 501,
+      "sha256": "04d6c033460aff7343fa17f3ed7ac5d0f6252d9eed13f2a3377c26421b1425d8",
+      "source_sha256": "16ddb39f5b96d3e6b0bb271b2eb397afef051f5c34f72650f128c63000ba8f34",
+      "source_bytes": 574
+    },
+    "01-main/01-factorial/PROTOCOL.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/revision-2026-10-04/PROTOCOL.md",
+      "bytes": 5431,
+      "sha256": "e77338aa6fdf6d9941300c4cf2790468c3448cd1e476cd676671b545f7c2318c",
+      "source_sha256": "2ca2da847468b6c3eea054d1b8949b9efe1d6795501538646e264543407d1ea6",
+      "source_bytes": 5705
+    },
+    "01-main/01-factorial/RESULTS.md": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/revision-2026-10-04/RESULTS.md",
+      "bytes": 7005,
+      "sha256": "699ebe612f994651b96db6e906338501d14171f3079815fd686c77ebec8a3b47",
+      "source_sha256": "2b62dea52804ff7d98994e0aca4551b4b269d23ed9b10fd6a6bf4a787d2c9268",
+      "source_bytes": 7434
+    },
+    "01-main/01-factorial/evidence/v1/verification.json": {
+      "archive": "reviewer-bundle-20261005-wording-20261021.tar.gz",
+      "original_member": "reviewer-bundle-20261005/experiments/revision-2026-10-04/evidence/v1/verification.json",
+      "bytes": 1155,
+      "sha256": "5f177688563ad163bcb11ddea9361256203b1c22de5244e4eb787d1c1fddbb91"
+    },
+    "02-paramiko/PROTOCOL.md": {
+      "archive": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/PROTOCOL.md",
+      "bytes": 4578,
+      "sha256": "0352b000f6ed0ed409b999944f9317cceeebcf970fd84dc223a622d4e9994e88",
+      "source_sha256": "385051f291d7065153fda62a75acd05792a4ac164aa184038f869dcf629c9a69",
+      "source_bytes": 4689
+    },
+    "02-paramiko/AMENDMENT-paramiko.md": {
+      "archive": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/AMENDMENT-paramiko.md",
+      "bytes": 2443,
+      "sha256": "50714db02d1758c386aea6c599dc6578b0e8a3fed33e40ebc704cf4130387e35",
+      "source_sha256": "e7ae2f92c6a7ba302764fb37ea7449bf9c832871fd260835d533e21f9e4198a9",
+      "source_bytes": 2455
+    },
+    "02-paramiko/AMENDMENT-paramiko-schedule-2026-10-05.md": {
+      "archive": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/AMENDMENT-paramiko-schedule-2026-10-05.md",
+      "bytes": 4239,
+      "sha256": "c3f3245b2ce9827d87c5ec3c07a44d24ba1a8ac684a71a174af799a05ebba0ab"
+    },
+    "02-paramiko/RESULTS.md": {
+      "archive": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/RESULTS.md",
+      "bytes": 9595,
+      "sha256": "9260eb3fda9b1aa203fd6d168d622314382ad204bb985cf64b95dcc105109acb",
+      "source_sha256": "6726d49c6f217409f738d2df5906c3ff5465ff8d43117cff290db372e65c2347",
+      "source_bytes": 9642
+    },
+    "02-paramiko/receipt-paramiko-v1.json": {
+      "archive": "paramiko-reviewer-bundle-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/receipt-paramiko-v1.json",
+      "bytes": 56626,
+      "sha256": "86f8ff44e648406b5da750021e9dfd2f796a4bbac90ca362f4a02d7b508e3011",
+      "source_sha256": "1af4fefb3d000bcf7c5818f3aa1749e5605f8993948c41a00ec36c9bd3db8b4d",
+      "source_bytes": 56638
+    },
+    "03-original-intervention/AMENDMENT-paramiko-shim-2026-10-05.md": {
+      "archive": "paramiko-shim-reviewer-bundle-20261005.tar.gz",
+      "original_member": "AMENDMENT-paramiko-shim-2026-10-05.md",
+      "bytes": 4150,
+      "sha256": "f924ef3b247ae80b41e60c78266274c3a3abbdd9b3f49a8164316728a5c51dad",
+      "source_sha256": "3375aef901d1ce9daf87993da1392ef8202d3b2adea2b91a2ad334baccf84758",
+      "source_bytes": 4262
+    },
+    "03-original-intervention/receipt-paramiko-shim-v1.json": {
+      "archive": "paramiko-shim-reviewer-bundle-20261005.tar.gz",
+      "original_member": "receipt-paramiko-shim-v1.json",
+      "bytes": 3137,
+      "sha256": "5ded615d5873ba3777a9cc35b6f2cfdb1635c5007c50a1416f5ba4900036cd1e"
+    },
+    "04-additional-fixtures/AMENDMENT-paramiko-shim-3fix-2026-10-05.md": {
+      "archive": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/AMENDMENT-paramiko-shim-3fix-2026-10-05.md",
+      "bytes": 5878,
+      "sha256": "b79dd668419f5f243b355833abb6e536b09717c9661aff952bca8faebc3de19d",
+      "source_sha256": "2b7bc1e44838df400a5be453e8ffbf7fd127e667f3d9d69318265fac2059e4e7",
+      "source_bytes": 6023
+    },
+    "04-additional-fixtures/AMENDMENT-paramiko-shim-3fix-checker-v1.1.md": {
+      "archive": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/AMENDMENT-paramiko-shim-3fix-checker-v1.1.md",
+      "bytes": 1811,
+      "sha256": "9874bf576f65c22c8c5a2847f0198b80253c665df482d6ad520fbdf199ead6a2"
+    },
+    "04-additional-fixtures/receipt-paramiko-shim-3fix-v1.json": {
+      "archive": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/receipt-paramiko-shim-3fix-v1.json",
+      "bytes": 17885,
+      "sha256": "88d155932c86ac3757c1e5dae0e5a110f4ccbc9a26846f14c5fe8ab5b0a1f538"
+    },
+    "04-additional-fixtures/receipt-paramiko-shim-3fix-v1.1.json": {
+      "archive": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/receipt-paramiko-shim-3fix-v1.1.json",
+      "bytes": 17813,
+      "sha256": "7d8248391b102defba1d9ca4134aea9b611de6e90037776cbd348f9861ac3b27"
+    },
+    "04-additional-fixtures/schedule_shim_3fix.json": {
+      "archive": "paramiko-additional-three-fixtures-20261005.tar.gz",
+      "original_member": "novelty-sequences-2026-10-05/schedule_shim_3fix.json",
+      "bytes": 2559,
+      "sha256": "7cdad56b8866e214bf9016a6be96636d9ddbc58e2e48fe15ff630ce8890def7b"
+    }
+  }
+}

@@ -1,0 +1,993 @@
+{
+  "integrity_errors": [],
+  "fixtures": {
+    "trial-1": {
+      "errors": [],
+      "records": 52,
+      "verified_signatures": 30,
+      "chains": [
+        {
+          "label": "preflight-gate-origin-direct-DEST_A",
+          "connection": 1,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_A",
+          "connection": 2,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_B",
+          "connection": 4,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_A",
+          "connection": 10,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_B",
+          "connection": 16,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "connection": 17,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "connection": 18,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "connection": 20,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_A",
+          "connection": 26,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_B",
+          "connection": 32,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_A",
+          "connection": 34,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_B",
+          "connection": 36,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "gate-hop-forwarded-DEST_A",
+          "connection": 39,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_A",
+          "connection": 42,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_B",
+          "connection": 48,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "connection": 4,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "connection": 5,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "connection": 7,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_A",
+          "connection": 11,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_B",
+          "connection": 13,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "connection": 16,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "connection": 49,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "connection": 50,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "connection": 22,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "connection": 51,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "connection": 25,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "connection": 52,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "product_outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "product-origin-known-a": "deny",
+        "product-origin-known-b": "allow",
+        "product-hop-DEST_A": "deny",
+        "product-health-hop-DEST_A": "allow",
+        "product-hop-DEST_B": "deny",
+        "product-health-hop-DEST_B": "allow",
+        "product-hop-known-a": "deny",
+        "product-hop-known-b": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    },
+    "trial-2": {
+      "errors": [],
+      "records": 52,
+      "verified_signatures": 30,
+      "chains": [
+        {
+          "label": "preflight-gate-origin-direct-DEST_A",
+          "connection": 1,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_A",
+          "connection": 2,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_B",
+          "connection": 4,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_A",
+          "connection": 10,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_B",
+          "connection": 16,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "connection": 17,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "connection": 18,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "connection": 20,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_A",
+          "connection": 26,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_B",
+          "connection": 32,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_A",
+          "connection": 34,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_B",
+          "connection": 36,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "gate-hop-forwarded-DEST_A",
+          "connection": 39,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_A",
+          "connection": 42,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_B",
+          "connection": 48,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "connection": 4,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "connection": 5,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "connection": 7,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_A",
+          "connection": 11,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_B",
+          "connection": 13,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "connection": 16,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "connection": 49,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "connection": 50,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "connection": 22,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "connection": 51,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "connection": 25,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "connection": 52,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "product_outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "product-origin-known-a": "deny",
+        "product-origin-known-b": "allow",
+        "product-hop-DEST_A": "deny",
+        "product-health-hop-DEST_A": "allow",
+        "product-hop-DEST_B": "deny",
+        "product-health-hop-DEST_B": "allow",
+        "product-hop-known-a": "deny",
+        "product-hop-known-b": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    },
+    "trial-3": {
+      "errors": [],
+      "records": 52,
+      "verified_signatures": 30,
+      "chains": [
+        {
+          "label": "preflight-gate-origin-direct-DEST_A",
+          "connection": 1,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_A",
+          "connection": 2,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-direct-DEST_B",
+          "connection": 4,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_A",
+          "connection": 10,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "preflight-health-origin-forwarded-DEST_B",
+          "connection": 16,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "gate-origin-direct-DEST_A",
+          "connection": 17,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_A",
+          "connection": 18,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-direct-DEST_B",
+          "connection": 20,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_A",
+          "connection": 26,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-origin-forwarded-DEST_B",
+          "connection": 32,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_A",
+          "connection": 34,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "health-hop-direct-DEST_B",
+          "connection": 36,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "gate-hop-forwarded-DEST_A",
+          "connection": 39,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_A",
+          "connection": 42,
+          "hosts": [
+            "HOP",
+            "DEST_A"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "health-hop-forwarded-DEST_B",
+          "connection": 48,
+          "hosts": [
+            "HOP",
+            "DEST_B"
+          ],
+          "flags": [
+            1,
+            0
+          ]
+        },
+        {
+          "label": "product-origin-DEST_A",
+          "connection": 4,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_A",
+          "connection": 5,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-origin-DEST_B",
+          "connection": 7,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_A",
+          "connection": 11,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "product-health-hop-DEST_B",
+          "connection": 13,
+          "hosts": [
+            "DEST_B"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-native-DEST_A",
+          "connection": 16,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-native",
+          "connection": 49,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-stock",
+          "connection": 50,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-repaired-DEST_A",
+          "connection": 22,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-repaired",
+          "connection": 51,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-dedicated-DEST_A",
+          "connection": 25,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        },
+        {
+          "label": "workflow-health-dedicated",
+          "connection": 52,
+          "hosts": [
+            "DEST_A"
+          ],
+          "flags": [
+            0
+          ]
+        }
+      ],
+      "product_outcomes": {
+        "product-origin-DEST_A": "allow",
+        "product-health-origin-DEST_A": "allow",
+        "product-origin-DEST_B": "deny",
+        "product-health-origin-DEST_B": "allow",
+        "product-origin-known-a": "deny",
+        "product-origin-known-b": "allow",
+        "product-hop-DEST_A": "deny",
+        "product-health-hop-DEST_A": "allow",
+        "product-hop-DEST_B": "deny",
+        "product-health-hop-DEST_B": "allow",
+        "product-hop-known-a": "deny",
+        "product-hop-known-b": "allow",
+        "workflow-native-DEST_A": "allow",
+        "workflow-native-DEST_B": "deny",
+        "workflow-native-known-b": "allow",
+        "workflow-stock-DEST_A": "deny",
+        "workflow-stock-DEST_B": "deny",
+        "workflow-stock-known-b": "deny",
+        "workflow-repaired-DEST_A": "allow",
+        "workflow-repaired-DEST_B": "deny",
+        "workflow-repaired-known-b": "deny",
+        "workflow-dedicated-DEST_A": "allow",
+        "workflow-dedicated-DEST_B": "deny",
+        "workflow-dedicated-known-b": "deny"
+      }
+    }
+  },
+  "three_complete_fixtures": true,
+  "product_matrix_agrees": true,
+  "mutations": [
+    {
+      "name": "wrong-destination",
+      "detected_for_intended_reason": true,
+      "errors": [
+        "product-origin-DEST_A attribution"
+      ]
+    },
+    {
+      "name": "false-allow",
+      "detected_for_intended_reason": true,
+      "errors": [
+        "product-origin-DEST_B authentication evidence",
+        "product-origin-DEST_B one verified auth signature"
+      ]
+    },
+    {
+      "name": "missing-record",
+      "detected_for_intended_reason": true,
+      "errors": [
+        "schedule coverage"
+      ]
+    },
+    {
+      "name": "duplicate-record",
+      "detected_for_intended_reason": true,
+      "errors": [
+        "duplicate labels",
+        "sequential probe intervals"
+      ]
+    }
+  ],
+  "valid_serialization_permutation_errors": [],
+  "scope": "author saved-record audit; client attribution and captured frames",
+  "passed": true
+}

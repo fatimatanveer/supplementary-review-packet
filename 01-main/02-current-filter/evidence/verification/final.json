@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-03T23:31:14.634880+00:00",
+  "audits": {
+    "historical-core": {
+      "fixtures": 3,
+      "verified_signatures": 441,
+      "errors": []
+    },
+    "current-source": {
+      "fixtures": 3,
+      "verified_signatures": 69,
+      "errors": []
+    }
+  },
+  "mutations_rejected": 6,
+  "checker_sha256": "8e9b42d3d2022713aa33c3e2b87861af3cd59ce5f6e4229abfd71e83bb8b04a3",
+  "specification_sha256": "07975b889dca996f820f876b7a363e7e4086360a1440c1f91cf73d0b04541e8f",
+  "errors": []
+}

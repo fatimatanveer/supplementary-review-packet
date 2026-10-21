@@ -1,0 +1,23 @@
+{
+  "historical": {
+    "errors": [],
+    "coverage_gaps": 453,
+    "signatures": 441,
+    "mutations": 8,
+    "mutation_failures": []
+  },
+  "previous": {
+    "errors": [],
+    "coverage_gaps": 6,
+    "signatures": 69,
+    "mutations": 12,
+    "mutation_failures": []
+  },
+  "fresh": {
+    "errors": [],
+    "coverage_gaps": 0,
+    "signatures": 69,
+    "mutations": 12,
+    "mutation_failures": []
+  }
+}
